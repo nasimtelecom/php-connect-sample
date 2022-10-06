@@ -3,9 +3,9 @@
 return [
     'smartApi' => [
         'apps' => [
-            '*' => "\App\Simotel\SmartApiApp",
-            'sayDate' => "\App\Simotel\SayDateSmartApiApp",
-            'sayHello' => "\App\Simotel\SayDateSmartApiApp",
+            'sayDate' => "\App\Simotel\SmartApi\SayDateSmartApiApp",
+            'sayHello' => "\App\Simotel\SmartApi\SayDateSmartApiApp",
+            '*' => "\App\Simotel\SmartApi\SmartApiApp",
         ],
     ],
     'ivrApi' => [
