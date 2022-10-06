@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Simotel;
+namespace App\Simotel\SmartApi;
 
-use NasimTelecom\Simotel\SimotelSmartApi\SmartApiCommands;
+use \NasimTelecom\Simotel\SmartApi\Commands;
 
 class SmartApiApp{
     
-    use SmartApiCommands;
+    use Commands;
 
     public function sayClock($data){
         $this->cmdSayDigit(123);
