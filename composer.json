@@ -1,0 +1,23 @@
+{
+    "name": "nasimtelecom/phpconnect-sample",
+    "authors": [
+        {
+            "name": "Hossein Yaghmaee",
+            "email": "hosseinyaghmaee@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "nasimtelecom/simotel-php-connect": "dev-main",
+        "monolog/monolog": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "config": {
+        "disable-tls": true,
+        "secure-http": false
+    }
+}
