@@ -13,11 +13,11 @@ $simotel = new Simotel($config);
 try{
     $res = $simotel->connect("pbx/users/search",[
         "alike"=>false,
-        "name"=>"all",
         "conditions"=>["name"=>"200"],
     ]);
     $log->info($res);
 }
 catch(Exception $ex){
     $log->error($ex->getMessage());
+    die($ex->getMessage());
 }
