@@ -4,7 +4,6 @@ return [
     'smartApi' => [
         'apps' => [
             'sayDate' => "\App\Simotel\SmartApi\SayDateSmartApiApp",
-            'sayHello' => "\App\Simotel\SmartApi\SayDateSmartApiApp",
             '*' => "\App\Simotel\SmartApi\SmartApiApp",
         ],
     ],

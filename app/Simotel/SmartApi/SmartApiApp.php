@@ -8,8 +8,8 @@ class SmartApiApp{
     
     use Commands;
 
-    public function sayClock($data){
-        $this->cmdSayDigit(123);
-        return $this->okResponse();
+    public function sayHello($data){
+       $this->cmdPlayAnnouncement("hellow");
+       return $this->okResponse();
     }
 }
